@@ -1,0 +1,43 @@
+/* Add more styles as needed */
+
+.App {
+  font-family: Arial, sans-serif;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: black;
+}
+
+ul li {
+  transition: background-color 0.3s;
+}
+
+ul li:hover {
+  background-color: #f0f0f0;
+}
+
+/* VideoCard.css */
+
+.video-card {
+  margin: 10px 0;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-title {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.delete-button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
